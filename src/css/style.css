@@ -4,6 +4,9 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+.chat-container {
+  width: 100%;
+}
 .container {
   display: flex;
   width: 80%;

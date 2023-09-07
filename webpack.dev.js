@@ -8,10 +8,8 @@ module.exports = merge(common, {
   devtool: "inline-source-map",
   devServer: {
     historyApiFallback: true,
-    contentBase: path.resolve(__dirname, "/dist"),
     open: true,
     compress: true,
-    port: 8000,
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
